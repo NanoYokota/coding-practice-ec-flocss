@@ -14,3 +14,15 @@
 //     overflow-x: clip;
 //   }
 // }
+
+.l-flex {
+  display: flex;
+
+  &.horizonBetween {
+    justify-content: space-between;
+  }
+
+  &.verticalCenter {
+    align-items: center;
+  }
+}
