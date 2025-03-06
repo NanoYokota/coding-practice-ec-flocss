@@ -22,70 +22,71 @@ block content-block
   include /_header
 
   main.l-main
-    div
+    .p-productImage
       img(src="/assets/images/item.jpg", alt="", width="320" height="400")
 
-    div
-      h2 TOTALLY Short Sleeve Shirt
-      p テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト
+    .p-productInfo
+      h2.p-productInfo__name TOTALLY Short Sleeve Shirt
+      p.u-margin--top20 テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト
 
-      p ￥9,999 +tax
+      p.u-margin--top30 ￥9,999 +tax
 
-      table
+      table.p-selectVolumeTable.c-table1.u-margin--top30
         thead
           tr
-            th Color
-            th Size
+            th.p-selectVolumeTable__cell--small.c-table1__cell--head Color
+            th.p-selectVolumeTable__cell--small.c-table1__cell--head Size
+            th.p-selectVolumeTable__cell--large.c-table1__cell--head
         tbody
-          tr
-            td White
-            td S
-            td
-              select
+          tr.c-table1__row--body
+            td.p-selectVolumeTable__cell--small.c-table1__cell White
+            td.p-selectVolumeTable__cell--small.c-table1__cell S
+            td.p-selectVolumeTable__cell--large.c-table1__cell
+              select.p-selectVolumeTable__select
                 option 1
                 option 2
                 option 3
-          tr
-            td White
-            td M
-            td
-              select
+          tr.c-table1__row--body
+            td.p-selectVolumeTable__cell--small.c-table1__cell White
+            td.p-selectVolumeTable__cell--small.c-table1__cell M
+            td.p-selectVolumeTable__cell--large.c-table1__cell
+              select.p-selectVolumeTable__select
                 option 1
                 option 2
                 option 3
-          tr
-            td White
-            td L
-            td
-              select
+          tr.c-table1__row--body
+            td.p-selectVolumeTable__cell--small.c-table1__cell White
+            td.p-selectVolumeTable__cell--small.c-table1__cell L
+            td.p-selectVolumeTable__cell--large.c-table1__cell
+              select.p-selectVolumeTable__select
                 option 1
                 option 2
                 option 3
 
-      button ADD TO CART
+      button.c-button.u-margin--top20 ADD TO CART
 
-      table
+      table.c-table1.p-sizeTable.u-margin--top30
         thead
           tr
-            th Size
-            th Chest
-            th Weist
-            th Height
+            th.c-table1__cell--head.p-sizeTable__cell--gray Size
+            th.c-table1__cell--head.p-sizeTable__cell--gray Chest
+            th.c-table1__cell--head.p-sizeTable__cell--gray Weist
+            th.c-table1__cell--head.p-sizeTable__cell--gray Height
         tbody
-          tr
-            td S
-            td 99 ~ 99
-            td 99 ~ 99
-            td 99 ~ 99
-          tr
-            td M
-            td 99 ~ 99
-            td 99 ~ 99
-            td 99 ~ 99
-          tr
-            td L
-            td 99 ~ 99
-            td 99 ~ 99
-            td 99 ~ 99
+          tr.c-table1__row--body
+            td.c-table1__cell.p-sizeTable__cell--gray S
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+          tr.c-table1__row--body
+            td.c-table1__cell.p-sizeTable__cell--gray M
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+          tr.c-table1__row--body
+            td.c-table1__cell.p-sizeTable__cell--gray L
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
+            td.c-table1__cell.p-sizeTable__cell 99 ～ 99
 
   include /_footer

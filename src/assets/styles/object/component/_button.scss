@@ -2,6 +2,14 @@
 @use 'sass:math';
 
 .c-button {
+  width: 100%;
+  padding: 14px 0;
+
+  background: #4B4B4B;
+
+  text-align: center;
+  color: #fff;
+
   @include mq-up(md) {
   }
 }

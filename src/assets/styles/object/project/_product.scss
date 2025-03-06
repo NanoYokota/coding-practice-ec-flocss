@@ -1,0 +1,55 @@
+@use '../../global' as *;
+
+.p-productImage {
+  width: 100%;
+
+  > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.p-productInfo {
+  padding: 16px;
+
+  &__name {
+    padding: 14px 0;
+  
+    border-top: 1px solid $border-gray;
+    border-bottom: 1px solid $border-gray;
+  
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.p-selectVolumeTable {
+  &__cell {
+    &--small {
+      width: 20%;
+    }
+
+    &--large {
+      width: 60%;
+    }
+  }
+
+  &__select {
+    padding: 0 10px;
+    width: 100%;
+
+    border: 1px solid $border-gray;
+
+    appearance: auto;
+  }
+}
+
+.p-sizeTable {
+  border: 1px solid $border-gray;
+
+  &__cell {
+    &--gray {
+      background-color: $bg-gray;
+    }
+  }
+}

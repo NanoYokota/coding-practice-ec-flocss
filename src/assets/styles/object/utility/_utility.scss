@@ -16,3 +16,11 @@
 .u-txtHide {
   @include text-hide();
 }
+
+.u-margin--top20 {
+  margin-top: 20px !important;
+}
+
+.u-margin--top30 {
+  margin-top: 30px !important;
+}

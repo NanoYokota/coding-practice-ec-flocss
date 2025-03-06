@@ -1,0 +1,25 @@
+@use '../../global' as *;
+
+.c-table1 {
+  width: 100%;
+
+  text-align: center;
+  line-height: normal;
+
+  &__row--body {
+    border-top: 1px solid $border-gray;
+  }
+
+  &__cell {
+    padding: 10px;
+
+    + .c-table1__cell {
+      border-left: 1px solid $border-gray;
+    }
+
+    &--head {
+      @extend .c-table1__cell;
+      font-weight: normal;
+    }
+  }
+}
