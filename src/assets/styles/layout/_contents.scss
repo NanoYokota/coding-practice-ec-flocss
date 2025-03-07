@@ -6,15 +6,6 @@
 //   min-height: 100vh;
 // }
 
-// .l-main {
-//   max-width: 100%;
-//   flex: 1;
-//   overflow-x: hidden;
-//   @supports (overflow-x: clip) {
-//     overflow-x: clip;
-//   }
-// }
-
 .l-flex {
   display: flex;
 
@@ -24,5 +15,13 @@
 
   &.verticalCenter {
     align-items: center;
+  }
+}
+
+.l-productContainer {
+  @include mq-up(md) {
+    display: flex;
+    max-width: 800px;
+    margin: 50px auto 0;
   }
 }

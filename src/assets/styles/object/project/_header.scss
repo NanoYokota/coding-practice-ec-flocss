@@ -5,17 +5,31 @@
   padding: 16px;
 
   @include mq-up(md) {
+    padding: 20px;
+
+    border-bottom: 1px solid $border-gray;
   }
 }
 
 .p-header__logo {
   width: 109px;
   margin: 20px auto 26px;
+
+  @include mq-up(md) {
+    margin-bottom: 36px;
+  }
 }
 
 .p-header__nav {
   width: 100%;
   overflow-x: scroll;
+
+  @include mq-up(md) {
+    max-width: 800px;
+    margin: 0 auto;
+
+    overflow-x: visible;
+  }
 }
 
 .p-header__menu {
