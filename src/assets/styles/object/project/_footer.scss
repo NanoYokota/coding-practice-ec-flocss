@@ -2,6 +2,11 @@
 @use 'sass:math';
 
 .p-footer {
+  padding: 10px 0;
+
+  font-size: 10px;
+  text-align: center;
+
   @include mq-up(md) {
   }
 }
