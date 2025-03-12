@@ -20,7 +20,7 @@ description: web page description.
 # twitter_card_owner: '@TwitterJP'
 
 # favicon
-favicon_url: /assets/images/favicon.ico
+favicon_url: ./assets/images/favicon.ico
 
 # webclipicon_url
 # webclipicon_url: http://example.com/webclipicon.png

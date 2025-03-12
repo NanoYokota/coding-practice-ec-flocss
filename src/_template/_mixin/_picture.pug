@@ -29,7 +29,7 @@ mixin picture-media(options)
       img(src=`${options.path}${options.name}_sp.${options.type}` alt=(options.alt || '') width=`${options.widthSP}` height=`${options.heightSP}`)
 //- +picture-media({
 //-   media: md,
-//-   path: '/assets/images/',
+//-   path: './assets/images/',
 //-   name: 'filename',
 //-   type: 'jpg',
 //-   alt: '',
@@ -57,7 +57,7 @@ mixin picture(options)
       img(src=`${options.path}${options.name}.${options.type}` alt=(options.alt || '') width=`${options.width}` height=`${options.height}`)
 
 //- +picture({
-//-   path: '/assets/images/',
+//-   path: './assets/images/',
 //-   name: 'filename',
 //-   type: 'png',
 //-   alt: '',
